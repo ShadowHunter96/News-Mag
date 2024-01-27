@@ -1,0 +1,15 @@
+.card-img-top {
+    height: 200px; /* Fixed height */
+    width: 100%; /* Full width */
+    object-fit: cover; /* This will cover the area without stretching the image */
+  }
+  .card-body {
+    height: 150px; /* Example fixed height */
+    overflow: auto; /* Adds scrollbar if text is longer than the container */
+  }
+  
+  .news-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(345px, 1fr)); /* This will create a responsive grid layout */
+    grid-gap: 16px; /* Adjust the gap as needed */
+  }
